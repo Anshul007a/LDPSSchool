@@ -5,7 +5,10 @@
         <hr class="line-below">
     </div>
    <child-component></child-component>
-   '<child-componentcard></child-componentcard>
+   <child-componentcard></child-componentcard>
+   <child-nevigator></child-nevigator>
+   
+
 
   </div>
 </template>
@@ -13,11 +16,13 @@
 <script>
 import ChildComponet from './ChildComponet.vue'
 import ChildComponentcard from './ChildComponentcard.vue';
+import NevigatorComponent from './NevigatorComponent.vue';
 
 export default {
     components: {
     'child-component': ChildComponet,
-    'child-componentcard':ChildComponentcard
+    'child-componentcard':ChildComponentcard,
+    'child-nevigator':NevigatorComponent
   },
 
 }
